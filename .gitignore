@@ -6,6 +6,7 @@
 
 # Ignore config files
 /config/database.yml
+/config/genealogy.yml
 /config/secrets.yml
 
 # Ignore bundler config.
@@ -16,6 +17,10 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+
+# Ignore Swagger Documentation files.
+/public/api/v1
+/public/assets
 
 # Ignore Byebug command history file.
 .byebug_history

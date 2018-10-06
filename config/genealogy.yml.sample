@@ -1,0 +1,18 @@
+## Environment settings
+defaults: &defaults
+  application_name: Genealogy
+  api_version: v1
+  host: localhost
+  port: 3000
+  protocol: http
+  relative_url_root: ''
+
+development: &development
+  <<: *defaults
+
+test:
+  <<: *development
+  host: localhost
+
+production:
+  <<: *defaults
